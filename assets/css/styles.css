@@ -4,6 +4,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -540,8 +541,82 @@ a {
     bottom: -20px;
     right: 221px;
 }
+/* ==================== Footer ====================*/
 
+.footer {
+    margin-top: 55px;
+    padding: 50px 0px 58px 0;
+}
 
+.footer .item .sub-title {
+    font-family: 'Lato', sans-serif;
+    /* margin-bottom: 42px; */
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 24px;
+    color: #1C1C1D;
+}
+
+.footer .item ul {
+    margin-top: 42px;
+}
+
+.footer ul li {
+    margin-top: 18px;
+}
+
+.footer .item ul a {
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #7A7A7E;
+}
+
+.footer .list-item {
+    display: flex;
+    gap: 0 185px;
+}
+
+.footer .item .desc {
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #7A7A7E;
+}
+
+.footer .item .icon-group {
+    margin-top: 41px;
+    display: flex;
+    align-items: center;
+    gap: 0 16px;
+}
+
+.footer .item .icon-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    background-color: #F9F9F9;
+}
+
+.img-footer {
+    margin-top: 81px;
+}
+
+.row-footer {
+    margin-top: 81px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-footer .desc {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    color: #C2C2C2;
+}
 
 
 
